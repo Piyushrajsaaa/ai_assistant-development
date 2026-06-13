@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}AI Assistant - Home{% endblock %} {%
+block content %}
+
+<section class="hero">
+  <h1>Your Personal AI Assistant</h1>
+  <p>
+    Powered by Gemini AI. Ask questions, summarize text, generate creative
+    content, and get personalized study advice.
+  </p>
+</section>
+
+<div class="cards-grid">
+  <a href="/qa" class="feature-card">
+    <span class="icon">💬</span>
+    <h3>Question Answering</h3>
+    <p>Ask anything — get clear, accurate answers with examples.</p>
+  </a>
+  <a href="/summarize" class="feature-card">
+    <span class="icon">📄</span>
+    <h3>Text Summarization</h3>
+    <p>Paste any text and get a concise, structured summary.</p>
+  </a>
+  <a href="/generate" class="feature-card">
+    <span class="icon">✍️</span>
+    <h3>Content Generation</h3>
+    <p>Generate stories, poems, essays on any topic.</p>
+  </a>
+  <a href="/advisor" class="feature-card">
+    <span class="icon">🎓</span>
+    <h3>Study Advisor</h3>
+    <p>Get personalized study roadmaps and learning strategies.</p>
+  </a>
+</div>
+
+{% endblock %}
