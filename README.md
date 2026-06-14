@@ -1,4 +1,4 @@
-# 🤖 AI Assistant Development
+#  AI Assistant Development
 
 A web-based AI Assistant built with **Python**, **Flask**, and **Google Gemini API** as part of a Prompt Engineering assignment.
 
@@ -7,26 +7,26 @@ A web-based AI Assistant built with **Python**, **Flask**, and **Google Gemini A
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
-👉 **[https://ai-assistant-development-3.onrender.com](https://ai-assistant-development-3.onrender.com)**
+ **[https://ai-assistant-development-3.onrender.com](https://ai-assistant-development-3.onrender.com)**
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This AI Assistant can perform 4 distinct functions:
 
 | #   | Function              | Description                               |
 | --- | --------------------- | ----------------------------------------- |
-| 1   | 💬 Question Answering | Get clear answers to any question         |
-| 2   | 📄 Text Summarization | Summarize long text into concise format   |
-| 3   | ✍️ Content Generation | Generate stories, poems, essays, ideas    |
-| 4   | 🎓 Study Advisor      | Get personalized study plans and roadmaps |
+| 1   |  Question Answering | Get clear answers to any question         |
+| 2   |  Text Summarization | Summarize long text into concise format   |
+| 3   |  Content Generation | Generate stories, poems, essays, ideas    |
+| 4   |  Study Advisor      | Get personalized study plans and roadmaps |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology        | Version          | Purpose                   |
 | ----------------- | ---------------- | ------------------------- |
@@ -41,7 +41,7 @@ This AI Assistant can perform 4 distinct functions:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ai_assistant/
 
@@ -125,7 +125,7 @@ ai_assistant/
 
 ---
 
-## ⚙️ Prompt Engineering Techniques Used
+##  Prompt Engineering Techniques Used
 
 | Technique              | Description                      | Used In             |
 | ---------------------- | -------------------------------- | ------------------- |
@@ -138,7 +138,7 @@ ai_assistant/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 
@@ -178,7 +178,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 Run formal test cases:
 
@@ -187,62 +187,62 @@ python test_cases.py
 ```
 
 Expected output:
-✅ PASS | QA | Simple | What is Python?
+PASS | QA | Simple | What is Python?
 
-✅ PASS | QA | Educational | Explain OOP concepts
+PASS | QA | Educational | Explain OOP concepts
 
-✅ PASS | QA | Detailed | What is Artificial Intelligence?
+PASS | QA | Detailed | What is Artificial Intelligence?
 
-✅ PASS | QA | Edge | Empty input handled → validation working correctly
+PASS | QA | Edge | Empty input handled → validation working correctly
 
-✅ PASS | Summarize | Quick | ML paragraph
+PASS | Summarize | Quick | ML paragraph
 
-✅ PASS | Summarize | Bullet | ML paragraph
+PASS | Summarize | Bullet | ML paragraph
 
-✅ PASS | Summarize | Academic | ML paragraph
+PASS | Summarize | Academic | ML paragraph
 
-✅ PASS | Summarize | Edge | Too short text handled → validation working correctly
+PASS | Summarize | Edge | Too short text handled → validation working correctly
 
-✅ PASS | Generate | Simple | Poem about autumn
+PASS | Generate | Simple | Poem about autumn
 
-✅ PASS | Generate | Detailed | Story about a robot
+PASS | Generate | Detailed | Story about a robot
 
-✅ PASS | Generate | Structured | Essay about AI
+PASS | Generate | Structured | Essay about AI
 
-✅ PASS | Generate | Idea | Science fiction novel
+PASS | Generate | Idea | Science fiction novel
 
-✅ PASS | Advisor | Quick | DSA tips
+PASS | Advisor | Quick | DSA tips
 
-✅ PASS | Advisor | Roadmap | Machine Learning
+PASS | Advisor | Roadmap | Machine Learning
 
-✅ PASS | Advisor | Expert | System Design interviews
+PASS | Advisor | Expert | System Design interviews
 **15/15 Tests Passing ✅**
 
 ---
 
-## 💬 Feedback Mechanism
+##  Feedback Mechanism
 
 After every AI response, users can submit feedback:
 
-- 👍 **Yes** — Response was helpful
-- 👎 **No** — Response was not helpful
+-  **Yes** — Response was helpful
+-  **No** — Response was not helpful
 
 Feedback is stored locally in `feedback.json` with timestamp, function name, and rating.
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
-- 🔐 User authentication and chat history
-- 📄 PDF/document upload for summarization
-- 🎙️ Voice input using Web Speech API
-- 📊 Analytics dashboard for feedback stats
-- 🌍 Multi-language support
-- ☁️ Full cloud deployment with database
+-  User authentication and chat history
+-  PDF/document upload for summarization
+-  Voice input using Web Speech API
+-  Analytics dashboard for feedback stats
+-  Multi-language support
+-  Full cloud deployment with database
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Piyush Raj**
 Computer Science Student
@@ -250,6 +250,6 @@ Prompt Engineering Assignment — 2026
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes only.
