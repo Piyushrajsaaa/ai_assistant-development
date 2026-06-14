@@ -1,0 +1,9 @@
+[
+    {
+        "timestamp": "2026-06-13 10:44:00",
+        "function": "qa",
+        "user_input": "what is science",
+        "ai_response": "Science is the systematic study of the natural and physical world through observation and experimentation, leading to testable explanations and predictions.",
+        "was_helpful": true
+    }
+]
