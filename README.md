@@ -216,7 +216,7 @@ PASS | Advisor | Quick | DSA tips
 PASS | Advisor | Roadmap | Machine Learning
 
 PASS | Advisor | Expert | System Design interviews
-**15/15 Tests Passing ✅**
+**15/15 Tests Passing **
 
 ---
 
