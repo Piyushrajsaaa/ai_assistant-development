@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 .vscode/feedback.json
 feedback.json
+.env
